@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // or later
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true, // Optional but can help skip type checking for libraries
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist", // Adjust as needed
+    "rootDir": "./" // Adjust as needed
+  },
+  "include": ["index.ts"] // Adjust to include your TypeScript files
+}

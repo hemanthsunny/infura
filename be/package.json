@@ -1,0 +1,28 @@
+{
+  "name": "infura-backend",
+  "version": "1.0.0",
+  "description": "APIs for ETH block information",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "npx nodemon index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "naga_perla",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^22.7.4",
+    "express": "^4.21.0",
+    "mongoose": "^8.7.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2",
+    "web3": "^4.13.0",
+    "web3-providers-ws": "^4.0.8"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/mongodb": "^4.0.6",
+    "@types/web3": "^1.0.20",
+    "nodemon": "^3.1.7"
+  }
+}
